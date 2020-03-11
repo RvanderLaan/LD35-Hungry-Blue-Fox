@@ -1,0 +1,297 @@
+fileFormatVersion: 2
+guid: 39757a7d0621c4f41bf1593779738ef0
+timeCreated: 1460794614
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Character
+    100004: Fox
+    100006: Armature
+    100008: Back
+    100010: BackLegBottom_L
+    100012: BackLegBottom_R
+    100014: BackLegTop_L
+    100016: BackLegTop_R
+    100018: BackPaw_L
+    100020: BackPaw_R
+    100022: FrontLegBottom_L
+    100024: FrontLegBottom_R
+    100026: FrontLegTop_L
+    100028: FrontLegTop_R
+    100030: FrontPaw_L
+    100032: FrontPaw_R
+    100034: Head
+    100036: Hip_L
+    100038: Hip_R
+    100040: Neck
+    100042: Shoulder_L
+    100044: Shoulder_R
+    100046: Tail1
+    100048: Tail2
+    100050: Tail3
+    100052: Character_001
+    400000: //RootNode
+    400002: Character
+    400004: Fox
+    400006: Armature
+    400008: Back
+    400010: BackLegBottom_L
+    400012: BackLegBottom_R
+    400014: BackLegTop_L
+    400016: BackLegTop_R
+    400018: BackPaw_L
+    400020: BackPaw_R
+    400022: FrontLegBottom_L
+    400024: FrontLegBottom_R
+    400026: FrontLegTop_L
+    400028: FrontLegTop_R
+    400030: FrontPaw_L
+    400032: FrontPaw_R
+    400034: Head
+    400036: Hip_L
+    400038: Hip_R
+    400040: Neck
+    400042: Shoulder_L
+    400044: Shoulder_R
+    400046: Tail1
+    400048: Tail2
+    400050: Tail3
+    400052: Character_001
+    2300000: //RootNode
+    2300002: Character
+    2300004: Fox
+    2300006: Character_001
+    3300000: //RootNode
+    3300002: Character
+    3300004: Fox
+    3300006: Character_001
+    4300000: Character
+    4300002: Fox
+    4300004: Character_001
+    7400000: Default Take
+    7400002: Idle
+    7400004: Running
+    9500000: //RootNode
+    13700000: Fox
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: 0
+      lastFrame: 500
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Back
+        weight: 1
+      - path: Armature/Back/Neck
+        weight: 1
+      - path: Armature/Back/Neck/Head
+        weight: 1
+      - path: Armature/Back/Shoulder_L
+        weight: 1
+      - path: Armature/Back/Shoulder_L/FrontLegTop_L
+        weight: 1
+      - path: Armature/Back/Shoulder_L/FrontLegTop_L/FrontLegBottom_L
+        weight: 1
+      - path: Armature/Back/Shoulder_L/FrontLegTop_L/FrontLegBottom_L/FrontPaw_L
+        weight: 1
+      - path: Armature/Back/Shoulder_R
+        weight: 1
+      - path: Armature/Back/Shoulder_R/FrontLegTop_R
+        weight: 1
+      - path: Armature/Back/Shoulder_R/FrontLegTop_R/FrontLegBottom_R
+        weight: 1
+      - path: Armature/Back/Shoulder_R/FrontLegTop_R/FrontLegBottom_R/FrontPaw_R
+        weight: 1
+      - path: Armature/Hip_L
+        weight: 1
+      - path: Armature/Hip_L/BackLegTop_L
+        weight: 1
+      - path: Armature/Hip_L/BackLegTop_L/BackLegBottom_L
+        weight: 1
+      - path: Armature/Hip_L/BackLegTop_L/BackLegBottom_L/BackPaw_L
+        weight: 1
+      - path: Armature/Hip_R
+        weight: 1
+      - path: Armature/Hip_R/BackLegTop_R
+        weight: 1
+      - path: Armature/Hip_R/BackLegTop_R/BackLegBottom_R
+        weight: 1
+      - path: Armature/Hip_R/BackLegTop_R/BackLegBottom_R/BackPaw_R
+        weight: 1
+      - path: Armature/Tail1
+        weight: 1
+      - path: Armature/Tail1/Tail2
+        weight: 1
+      - path: Armature/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Running
+      takeName: Running
+      firstFrame: -1
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Back
+        weight: 1
+      - path: Armature/Back/Neck
+        weight: 1
+      - path: Armature/Back/Neck/Head
+        weight: 1
+      - path: Armature/Back/Shoulder_L
+        weight: 1
+      - path: Armature/Back/Shoulder_L/FrontLegTop_L
+        weight: 1
+      - path: Armature/Back/Shoulder_L/FrontLegTop_L/FrontLegBottom_L
+        weight: 1
+      - path: Armature/Back/Shoulder_L/FrontLegTop_L/FrontLegBottom_L/FrontPaw_L
+        weight: 1
+      - path: Armature/Back/Shoulder_R
+        weight: 1
+      - path: Armature/Back/Shoulder_R/FrontLegTop_R
+        weight: 1
+      - path: Armature/Back/Shoulder_R/FrontLegTop_R/FrontLegBottom_R
+        weight: 1
+      - path: Armature/Back/Shoulder_R/FrontLegTop_R/FrontLegBottom_R/FrontPaw_R
+        weight: 1
+      - path: Armature/Hip_L
+        weight: 1
+      - path: Armature/Hip_L/BackLegTop_L
+        weight: 1
+      - path: Armature/Hip_L/BackLegTop_L/BackLegBottom_L
+        weight: 1
+      - path: Armature/Hip_L/BackLegTop_L/BackLegBottom_L/BackPaw_L
+        weight: 1
+      - path: Armature/Hip_R
+        weight: 1
+      - path: Armature/Hip_R/BackLegTop_R
+        weight: 1
+      - path: Armature/Hip_R/BackLegTop_R/BackLegBottom_R
+        weight: 1
+      - path: Armature/Hip_R/BackLegTop_R/BackLegBottom_R/BackPaw_R
+        weight: 1
+      - path: Armature/Tail1
+        weight: 1
+      - path: Armature/Tail1/Tail2
+        weight: 1
+      - path: Armature/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
